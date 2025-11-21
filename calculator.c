@@ -72,7 +72,7 @@ for(int w=0;w<m;w++){
         printf("-----For %s's note-----\n",x[w]);
         while(d<a[w]){
             
-            printf("%.2f\n",y[v]);
+            printf("Note N°%i: %.2f\n",d+1,y[v]);
             total[w]+=y[v];
         d++;
         v++;
